@@ -18,11 +18,11 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Outlaw AI Consultancy",
-    template: "%s | Outlaw AI Consultancy",
+    default: "Abraham George | Programmer Portfolio",
+    template: "%s | Abraham George | Programmer Portfolio",
   },
   description: "Challenging the AI status quo with radical honesty and evidence-based disruption",
-  authors: [{ name: "Outlaw AI Consultancy" }],
+  authors: [{ name: "Abraham George" }],
   keywords: ["AI consultancy", "digital transformation", "disruptive innovation"],
 };
 

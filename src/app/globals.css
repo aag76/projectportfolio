@@ -1,6 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Import Tailwind's base styles */
+@import "tailwindcss/base";
+
+/* Import Tailwind's components styles */
+@import "tailwindcss/components";
+
+/* Import Tailwind's utilities styles */
+@import "tailwindcss/utilities";
 
 @layer base {
   :root {
@@ -64,61 +69,102 @@
   }
 
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
 
   body {
-    @apply font-sans bg-background text-foreground text-base leading-relaxed;
+    font-family: 'Inter', 'Open Sans', 'Nunito', system-ui, sans-serif;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-size: 1rem;
+    line-height: 1.625;
   }
 
   /* Everyman Typography Base Styles */
   h1, h2, h3, h4, h5, h6 {
-    @apply font-sans font-semibold tracking-tight capitalize;
+    font-family: 'Inter', 'Open Sans', 'Nunito', system-ui, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -0.01em;
   }
 
-  h1 { @apply text-4xl md:text-5xl lg:text-6xl mb-4; }
-  h2 { @apply text-3xl md:text-4xl lg:text-5xl mb-3; }
-  h3 { @apply text-2xl md:text-3xl mb-2; }
-  h4 { @apply text-xl md:text-2xl mb-2; }
+  h1 {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
 
   p {
-    @apply text-base leading-relaxed mb-4;
+    font-size: 1rem;
+    line-height: 1.625;
+    margin-bottom: 1rem;
   }
 
   .supporting-text {
-    @apply text-sm text-muted-foreground;
+    font-size: 0.875rem;
+    color: hsl(var(--muted-foreground));
   }
 }
 
 @layer components {
   .card {
-    @apply rounded-xl shadow-md bg-card text-card-foreground p-6 mb-6;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: hsl(var(--card));
+    color: hsl(var(--card-foreground));
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
   }
+
   .button {
-    @apply rounded-lg shadow-sm font-medium px-5 py-2 transition-colors;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s;
+  }
+
+  .button:hover {
+    background-color: hsl(210, 60%, 50%);
   }
 }
 
 @layer utilities {
   /* Brand Gradient Utilities */
   .bg-gradient-brand {
-    @apply bg-gradient-to-r from-primary-400 to-accent-200;
+    background: linear-gradient(to right, hsl(210, 60%, 60%), hsl(40, 30%, 90%));
   }
-  
+
   .text-gradient-brand {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-accent-200;
+    background: linear-gradient(to right, hsl(210, 60%, 60%), hsl(40, 30%, 90%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
 
   .bg-gradient-innovation {
-    @apply bg-gradient-to-r from-secondary-400 to-accent-100;
+    background: linear-gradient(to right, hsl(140, 40%, 70%), hsl(40, 30%, 90%));
   }
 
   /* High-contrast text utilities for accessibility */
   .text-high-contrast {
-    @apply text-neutral-900 dark:text-neutral-50;
+    color: hsl(222.2, 84%, 4.9%);
   }
 
   .text-medium-contrast {
-    @apply text-neutral-700 dark:text-neutral-300;
+    color: hsl(220, 15%, 20%);
   }
 }
