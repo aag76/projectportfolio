@@ -8,7 +8,7 @@ const ContactPage = () => {
       <main className="max-w-2xl w-full space-y-8 py-20">
         <h1 className="text-3xl font-bold text-center text-gray-800">Contact Us</h1>
         <p className="text-lg text-medium-contrast text-center">
-          Have questions or feedback? We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.
+          Have questions or would you like to get in touch?  Fill out the form below and I'll get back to you as soon as possible.
         </p>
 
         <div className="bg-white rounded-lg shadow-md p-6 space-y-4">
