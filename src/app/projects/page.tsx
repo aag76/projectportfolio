@@ -47,7 +47,7 @@ export default function Projects() {
   return (
     <div className="min-h-screen bg-background flex flex-col items-center justify-center px-4">
       <main className="max-w-2xl w-full space-y-8 py-20">
-        <h1 className="text-gradient-brand text-center">Our Work</h1>
+        <h1 className="text-gradient-brand text-center">My Work</h1>
         <p className="text-lg text-medium-contrast text-center">
           Explore some of the projects I've worked on.
         </p>
