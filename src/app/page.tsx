@@ -12,7 +12,7 @@ export default function Home() {
             Hello, I'm Abraham
           </h1>
           <p className="text-lg text-medium-contrast max-w-2xl mx-auto leading-relaxed">
-            Welcome to my portfolio. I specialize in building cutting-edge applications and solving complex problems with clean, efficient code.
+            Welcome to my portfolio. I work in building cutting-edge applications and solving complex problems with clean, efficient code.
           </p>
           <div className="flex gap-4 justify-center pt-4">
             <Button size="lg" className="text-base bg-gradient-brand hover:opacity-90">
@@ -33,7 +33,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <p className="text-medium-contrast">
-                From front-end interfaces to back-end systems, I deliver seamless and scalable solutions tailored to your needs.
+                From front-end interfaces to back-end systems, I deliver solutions tailored to your needs.
               </p>
             </CardContent>
           </Card>
