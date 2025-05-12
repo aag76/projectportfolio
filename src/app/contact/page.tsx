@@ -18,7 +18,6 @@ const ContactPage = () => {
           </p>
           <ul className="list-disc list-inside text-medium-contrast space-y-2">
             <li><strong>Email:</strong> <a href="mailto:aag76@njit.edu" className="text-primary underline hover:text-primary-700">aag76@njit.edu</a></li>
-            <li><strong>Phone:</strong> +1 (908) 372-8498</li>
             <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abraham-george-6821b92b9/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary-700">linkedin.com/in/abraham-george-6821b92b9</a></li>
             <li><strong>GitHub:</strong> <a href="https://github.com/aag76" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary-700">github.com/aag76</a></li>
             <li><strong>Address:</strong> 154 Summit Street, Newark, New Jersey, United States</li>
