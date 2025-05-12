@@ -49,7 +49,7 @@ export default function Projects() {
       <main className="max-w-2xl w-full space-y-8 py-20">
         <h1 className="text-gradient-brand text-center">Our Work</h1>
         <p className="text-lg text-medium-contrast text-center">
-          Explore some of the projects we’ve worked on, each focused on delivering practical, effective solutions for real people and organizations.
+          Explore some of the projects I've worked on.
         </p>
 
         {/* UFC Visualizations Card */}
