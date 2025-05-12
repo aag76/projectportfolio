@@ -86,7 +86,7 @@ export default function Projects() {
 
         {/* Assignment 3 Streaming Chat Card */}
         <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center space-y-4 w-full">
-          <h2 className="text-2xl font-semibold text-gray-800">Assignment 3: Streaming Chat</h2>
+          <h2 className="text-2xl font-semibold text-gray-800">Streaming Chat</h2>
           <div className="w-full border border-gray-200 rounded p-4">
             <div className="flex flex-col space-y-4">
               <div className="overflow-y-auto h-64 border rounded p-4 bg-gray-50">
