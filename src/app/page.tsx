@@ -9,7 +9,7 @@ export default function Home() {
         {/* Hero Section - Programmer Portfolio */}
         <div className="text-center space-y-6 max-w-[800px] mx-auto">
           <h1 className="text-gradient-brand text-5xl font-extrabold">
-            Crafting Innovative Software Solutions
+            Hello, I'm Abraham
           </h1>
           <p className="text-lg text-medium-contrast max-w-2xl mx-auto leading-relaxed">
             Welcome to my portfolio. I specialize in building cutting-edge applications and solving complex problems with clean, efficient code.
