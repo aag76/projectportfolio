@@ -1,3 +1,14 @@
+# Personal Student Portfolio Project
+- **Magician Archetype**
+- **Data Visualization Project**
+- **AI Streaming Chat Project**
+- **Historical Weather Tracker**
+- **Functioal Contact Form**
+- **Deployable on Vercel**
+
+This project is a Next.js application styled with Tailwind and hosted on Vercel that displays several projects as well as styled and branded according to the Magician Archetype.
+
+
 # Student Portfolio Starter Project
 
 This project provides a baseline Next.js application that you can use as a starting point for creating your professional portfolio. Built with modern web technologies, it offers a solid foundation that you can customize to showcase your skills, projects, and experiences.
